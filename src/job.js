@@ -30,7 +30,8 @@ export default function (options, utils, modules) {
       }
 
       unblock (callback) {
-        utils.req('PUT', `${this.baseURL}/unblock`, null, callback)
+        // Unblock API requires a non-empty JSON body.
+        utils.req('PUT', `${this.baseURL}/unblock`, {}, callback)
       }
 
       getLog (callback) {

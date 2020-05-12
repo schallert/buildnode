@@ -1,6 +1,6 @@
 {
-  "name": "buildnode",
-  "version": "1.0.0",
+  "name": "@schallert/buildnode",
+  "version": "1.0.1",
   "description": "Node module for Buildkite APIs",
   "main": "lib/index.js",
   "scripts": {
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SomeoneWeird/buildnode.git"
+    "url": "git+https://github.com/schallert/buildnode.git"
   },
-  "author": "Adam Brady <adam@boxxen.org>",
+  "author": "Matt Schallert <l1l8ep+7ja7bl6wb53zo@sharklasers.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SomeoneWeird/buildnode/issues"
+    "url": "https://github.com/schallert/buildnode/issues"
   },
   "keywords": [
     "buildkite",
     "ci"
   ],
-  "homepage": "https://github.com/SomeoneWeird/buildnode#readme",
+  "homepage": "https://github.com/schallert/buildnode#readme",
   "dependencies": {
     "request": "^2.61.0"
   },
